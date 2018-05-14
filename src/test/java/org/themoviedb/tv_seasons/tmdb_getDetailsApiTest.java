@@ -5,6 +5,7 @@ import static io.restassured.RestAssured.given;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import org.themoviedb.constants.Path;
 import org.themoviedb.core.BaseClass;
 
 import static org.hamcrest.Matchers.containsString;
@@ -22,6 +23,7 @@ public class tmdb_getDetailsApiTest extends BaseClass {
 
   @BeforeClass
   public void pathForGetDetails() {
+    reqSpec.basePath(Path.TV_SEASON);
     setEndPoint(TV_SEASON_GET_DETAILS);
   }
 

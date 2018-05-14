@@ -16,7 +16,6 @@ public class BaseClass {
   @BeforeClass
   public void setup() {
     reqSpec = getRequestSpecification();
-    reqSpec.basePath(Path.TV_SEASON);
     resSpec = getResponseSpecification();
   }
 

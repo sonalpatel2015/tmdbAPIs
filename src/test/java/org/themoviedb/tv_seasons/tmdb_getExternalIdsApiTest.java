@@ -19,6 +19,7 @@ import org.hamcrest.core.IsNull;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import org.themoviedb.constants.Path;
 import org.themoviedb.core.BaseClass;
 
 
@@ -29,6 +30,7 @@ public class tmdb_getExternalIdsApiTest extends BaseClass {
 
   @BeforeClass
   public void pathForGetDetails() {
+    reqSpec.basePath(Path.TV_SEASON);
     setEndPoint(TV_SEASON_GET_EXTERNAL_IDS);
   }
 

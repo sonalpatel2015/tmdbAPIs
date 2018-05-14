@@ -5,12 +5,14 @@ import static org.themoviedb.constants.EndPoints.TV_SEASON_GET_IMAGES;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import org.themoviedb.constants.Path;
 import org.themoviedb.core.BaseClass;
 
 public class tmdb_getImages extends BaseClass {
 
   @BeforeClass
   public void pathForGetDetails() {
+    reqSpec.basePath(Path.TV_SEASON);
     setEndPoint(TV_SEASON_GET_IMAGES);
   }
 
