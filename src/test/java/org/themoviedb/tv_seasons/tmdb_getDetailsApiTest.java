@@ -25,6 +25,12 @@ public class tmdb_getDetailsApiTest extends BaseClass {
     setEndPoint(TV_SEASON_GET_DETAILS);
   }
 
+  /*
+    Below test will log the full response and also verify
+    1. Status code is 200
+    2. Response time of the api is less than 5 seconds
+    Both of above are inbuilt into framework and will be executed for every test
+   */
   @Test
   public void statusCodeVerificationWithValidData() {
     given()
@@ -36,6 +42,9 @@ public class tmdb_getDetailsApiTest extends BaseClass {
       .spec(resSpec);
   }
 
+  /*
+    Verifying wrong Season Number and correct TV_ID returns 404 page
+   */
   @Test
   public void validTVIdWrongSeasonNumber() {
     given()
@@ -45,6 +54,9 @@ public class tmdb_getDetailsApiTest extends BaseClass {
       .spec(expect().statusCode(404));
   }
 
+  /*
+    This is to verify that api returns number of episode in given season are correct
+   */
   @Test
   public void verifyNumberOfEpisodesAreCorrect() {
     given()
@@ -55,6 +67,9 @@ public class tmdb_getDetailsApiTest extends BaseClass {
       .body("episodes.size()", equalTo(23));
   }
 
+  /*
+    This is to verify that api actually returns correct Season details
+   */
   @Test
   public void verifyItReturnsCorrectSeason() {
     given()

@@ -33,6 +33,10 @@ public class tmdb_getExternalIdsApiTest extends BaseClass {
   }
 
 
+
+  /*
+    This will verify that all external IDs are returned in the response
+  */
   @Test
   public void verifyResponseReturnsExternalIds() {
     /**

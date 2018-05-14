@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cec4199c-9c6d-42a4-ae93-1758d70881cc" name="Default" comment="" />
+    <list default="true" id="cec4199c-9c6d-42a4-ae93-1758d70881cc" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/themoviedb/tv_seasons/tmdb_getDetailsApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/themoviedb/tv_seasons/tmdb_getDetailsApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/themoviedb/tv_seasons/tmdb_getExternalIdsApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/themoviedb/tv_seasons/tmdb_getExternalIdsApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/themoviedb/tv_seasons/tmdb_getImages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/themoviedb/tv_seasons/tmdb_getImages.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,13 +45,13 @@
       <file leaf-file-name="tmdb_getDetailsApiTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/themoviedb/tv_seasons/tmdb_getDetailsApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
-              <caret line="58" column="42" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="42" />
+            <state relative-caret-position="218">
+              <caret line="70" column="70" selection-start-line="70" selection-start-column="70" selection-end-line="70" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#722#723#0" expanded="true" />
                 <element signature="e#738#739#0" expanded="true" />
-                <element signature="method#readTweets1#0;class#tmdb_getDetailsApiTest#0" expanded="true" />
+                <element signature="method#statusCodeVerificationWithValidData#0;class#tmdb_getDetailsApiTest#0" expanded="true" />
                 <element signature="method#validTVIdWrongSeasonNumber#0;class#tmdb_getDetailsApiTest#0" expanded="true" />
                 <element signature="method#verifyNumberOfEpisodesAreCorrect#0;class#tmdb_getDetailsApiTest#0" expanded="true" />
                 <element signature="method#verifyItReturnsCorrectSeason#0;class#tmdb_getDetailsApiTest#0" expanded="true" />
@@ -58,8 +63,8 @@
       <file leaf-file-name="tmdb_getExternalIdsApiTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/themoviedb/tv_seasons/tmdb_getExternalIdsApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="180">
+              <caret line="37" column="71" selection-start-line="37" selection-start-column="71" selection-end-line="37" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#724#725#0" expanded="true" />
@@ -70,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tmdb_getImages.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tmdb_getImages.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/themoviedb/tv_seasons/tmdb_getImages.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="503">
+              <caret line="65" column="40" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#789#790#0" expanded="true" />
@@ -85,7 +90,7 @@
                 <element signature="method#verifyPassingInvalidLanguageEnXy#0;class#tmdb_getImages#0" expanded="true" />
                 <element signature="method#verifyPassingInvalidLanguageLessThanTwoCharacter#0;class#tmdb_getImages#0" expanded="true" />
                 <element signature="method#verifyPassingValidSeasonWrongTvId#0;class#tmdb_getImages#0" expanded="true" />
-                <element signature="method#verifyPassingValidSeasonWrongTvId#1;class#tmdb_getImages#0" expanded="true" />
+                <element signature="method#verifyPassingValidTvIdWrongSeasonId#0;class#tmdb_getImages#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,8 +99,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="25" column="140" selection-start-line="25" selection-start-column="140" selection-end-line="25" selection-end-column="140" />
+            <state relative-caret-position="180">
+              <caret line="21" column="119" selection-start-line="21" selection-start-column="119" selection-end-line="21" selection-end-column="119" />
             </state>
           </provider>
         </entry>
@@ -113,7 +118,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Auth.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Auth.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/themoviedb/constants/Auth.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
@@ -172,6 +177,9 @@
       <replace>org.themoviedb</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -183,13 +191,13 @@
         <option value="$PROJECT_DIR$/src/test/java/org/themoviedb/constants/EndPoints.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/themoviedb/common/BaseClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/themoviedb/core/BaseClass.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/themoviedb/tv_seasons/tmdb_getDetailsApiTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/themoviedb/common/RestUtilities.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/test/java/org/themoviedb/tv_seasons/tmdb_getExternalIdsApiTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/themoviedb/tv_seasons/tmdb_getImages.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/org/themoviedb/constants/Auth.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/org/themoviedb/tv_seasons/tmdb_getDetailsApiTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/themoviedb/tv_seasons/tmdb_getExternalIdsApiTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/themoviedb/tv_seasons/tmdb_getImages.java" />
       </list>
     </option>
   </component>
@@ -205,6 +213,7 @@
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -616,7 +625,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32916668" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -725,61 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="25" column="140" selection-start-line="25" selection-start-column="140" selection-end-line="25" selection-end-column="140" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/themoviedb/tv_seasons/tmdb_getExternalIdsApiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="method#verifyResponseReturnsExternalIds#0;class#tmdb_getExternalIdsApiTest#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/themoviedb/tv_seasons/tmdb_getDetailsApiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="58" column="42" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-            <element signature="method#readTweets1#0;class#tmdb_getDetailsApiTest#0" expanded="true" />
-            <element signature="method#validTVIdWrongSeasonNumber#0;class#tmdb_getDetailsApiTest#0" expanded="true" />
-            <element signature="method#verifyNumberOfEpisodesAreCorrect#0;class#tmdb_getDetailsApiTest#0" expanded="true" />
-            <element signature="method#verifyItReturnsCorrectSeason#0;class#tmdb_getDetailsApiTest#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/themoviedb/tv_seasons/tmdb_getImages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="method#verifyPassingLanguageAsParameterWithEnUs#0;class#tmdb_getImages#0" expanded="true" />
-            <element signature="method#verifyLanguageIsOptionalParameter#0;class#tmdb_getImages#0" expanded="true" />
-            <element signature="method#verifyImagePathIsReturned#0;class#tmdb_getImages#0" expanded="true" />
-            <element signature="method#verifyPassingInvalidLanguageEnXy#0;class#tmdb_getImages#0" expanded="true" />
-            <element signature="method#verifyPassingInvalidLanguageLessThanTwoCharacter#0;class#tmdb_getImages#0" expanded="true" />
-            <element signature="method#verifyPassingValidSeasonWrongTvId#0;class#tmdb_getImages#0" expanded="true" />
-            <element signature="method#verifyPassingValidSeasonWrongTvId#1;class#tmdb_getImages#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -791,6 +745,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="70" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="21" column="119" selection-start-line="21" selection-start-column="119" selection-end-line="21" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/themoviedb/tv_seasons/tmdb_getDetailsApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="70" column="70" selection-start-line="70" selection-start-column="70" selection-end-line="70" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="method#statusCodeVerificationWithValidData#0;class#tmdb_getDetailsApiTest#0" expanded="true" />
+            <element signature="method#validTVIdWrongSeasonNumber#0;class#tmdb_getDetailsApiTest#0" expanded="true" />
+            <element signature="method#verifyNumberOfEpisodesAreCorrect#0;class#tmdb_getDetailsApiTest#0" expanded="true" />
+            <element signature="method#verifyItReturnsCorrectSeason#0;class#tmdb_getDetailsApiTest#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/themoviedb/tv_seasons/tmdb_getExternalIdsApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="37" column="71" selection-start-line="37" selection-start-column="71" selection-end-line="37" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="method#verifyResponseReturnsExternalIds#0;class#tmdb_getExternalIdsApiTest#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/themoviedb/tv_seasons/tmdb_getImages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="65" column="40" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="method#verifyPassingLanguageAsParameterWithEnUs#0;class#tmdb_getImages#0" expanded="true" />
+            <element signature="method#verifyLanguageIsOptionalParameter#0;class#tmdb_getImages#0" expanded="true" />
+            <element signature="method#verifyImagePathIsReturned#0;class#tmdb_getImages#0" expanded="true" />
+            <element signature="method#verifyPassingInvalidLanguageEnXy#0;class#tmdb_getImages#0" expanded="true" />
+            <element signature="method#verifyPassingInvalidLanguageLessThanTwoCharacter#0;class#tmdb_getImages#0" expanded="true" />
+            <element signature="method#verifyPassingValidSeasonWrongTvId#0;class#tmdb_getImages#0" expanded="true" />
+            <element signature="method#verifyPassingValidTvIdWrongSeasonId#0;class#tmdb_getImages#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

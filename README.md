@@ -17,7 +17,10 @@
 
 
 ### To Run,
-Open tmdbapis/src/test/java/org/themoviedb/constants/Auth.java and use your api_key of TMDB
+1) Open tmdbapis/src/test/java/org/themoviedb/constants/Auth.java and use your api_key of TMDB
+2) Open any apiTest file under tmdbapis/src/test/java/org/themoviedb/tv_seasons/
+3) Either right click on method and Run it as testNG test OR right click on the class and run it to execute entire file
+
 
 ##### Example API
 I have already automated TV Season > Get Details API - /tv/{tv_id}/season/{season_number}
