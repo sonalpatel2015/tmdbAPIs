@@ -1,19 +1,25 @@
 /**
 * This project is Created by Sonal Patel
+*
 */
 
-API Framework Stack:
+**API Framework Stack:**
 
-Rest-assured.io - API automation Framework
-TestNG - Testing Framework
-Java
-Hamcrest - For assertion
+>Rest-assured.io - API automation Framework
+
+>TestNG - Testing Framework
+
+>Java
+
+>Hamcrest - For Assertion
 
 
-To Run,
+
+
+### To Run,
 Open tmdbapis/src/test/java/org/themoviedb/constants/Auth.java and use your api_key of TMDB
 
-Example API
+##### Example API
 I have already automated TV Season > Get Details API - /tv/{tv_id}/season/{season_number}
 
 However, I have created files for below apis
@@ -21,7 +27,7 @@ TV Season > Get Credits - /tv/{tv_id}/season/{season_number}/credits
 TV Season > Get External IDs - /tv/{tv_id}/season/{season_number}/external_ids
 
 
-Assertions
+#### Assertions
 1) I verify response_code=200 for each test. It is defined in RestUtilities
    However, I have written 1 method to display that how to verify status code in actual test (Method: statusCodeVerificationWithValidData() ).
 
